@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Mahasiswa</title>
+</head>
+<body>
+    <form action="" style="margin-left: 25px; margin-top: 30px;">
+        <label for="formulir">
+            <h3>
+                Pendataan Mahasiswa Baru tahun 2025
+            </h3>
+        </label>
+        <table>
+            <tr>
+                <td>
+                    Username
+                </td>
+                <td> : </td>
+                <td colspan="2">
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password
+                </td>
+                <td> : </td>
+                <td colspan="2">
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Jenis Kelamin  </p>
+                </td>
+                <td> : </td>
+                <td>
+                    <input type="radio" value="perempuan"> Perempuan
+                </td>
+                <td>
+                    <input type="radio" value="laki-laki"> Laki-laki
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Alamat
+                </td>
+                <td> : </td>
+                <td colspan="2">
+                    <textarea name="Alamat" id="alamat-mahasiswa"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Jurusan</td>
+                <td> : </td>
+                <td>
+                    <select name="jurusan" id="jurusan-id">
+                        <option value="rpl">Rekayasa Perangkat Lunak</option>
+                        <option value="tekkom">Teknik Komputer</option>
+                        <option value="pgsd">PGSD</option>
+                        <option value="pgpaud">PGPAUD</option>
+                        <option value="mm">Pendidikan Multimedia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="padding-top: 25px; border: 1px;">
+                    <button style="background-color: white; border-radius: 5px; font-size: medium; padding: 12.5px;">
+                        Submit
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
