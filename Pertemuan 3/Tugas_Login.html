@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Akun</title>
+    <style>
+        body{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 70vh;
+
+            background-color: #f4f4f4;
+            font-size: 14px;
+        }
+
+        .container-regist{
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 400px;
+        }
+        h2{
+            text-align: center;
+        }
+
+        td, th{
+            padding: 10px;
+        }
+
+        input{
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        table{
+            width: 100%;
+        }
+
+        button{
+            background-color: rgb(54, 136, 190);
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        button:hover{
+            background-color: #0056b3;
+        }
+
+        .button-google{
+            padding: 10px;
+            background-color: #e4eaee;
+            border-radius: 5px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            text-decoration: none;
+            color: black;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container-regist">
+        <form action="#" method="get">
+            <h2>Login Akun</h2>
+            <table>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <!-- <td></td> -->
+                    <td>
+                        <input style="width: 80%;"
+                        type="email" id="email" name="email" placeholder="Masukkan email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password</label>
+                    </td>
+                    <!-- <td></td> -->
+                    <td>
+                        <input style="width: 80%;"
+                        type="password" name="password" id="password" placeholder="Masukkan password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="cek">
+                            <input type="checkbox" name="terms" required> Ingatkan password saya
+                        </label>
+                    </td>
+                    <!-- <td colspan="2">
+                        <input type="checkbox" name="terms" required> 
+                    </td>
+                    <td>Saya setuju dengan syarat & ketentuan</td> -->
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <a href="#" class="button-google">
+                            Login dengan Google
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <button type="submit">Registrasi</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
