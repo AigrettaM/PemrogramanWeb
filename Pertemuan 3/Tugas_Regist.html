@@ -3,74 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <title>Registrasi Akun</title>
 </head>
-<body>
-    <div class="container-regist">
-        <form action="#" method="get">
-            <h2>Registrasi Akun</h2>
-            <table>
-                <tr>
-                    <td>
-                        <label for="nama">Nama</label>
-                    </td>
-                    <td></td>
-                    <td>
-                        <input style="width: 80%;"
-                        type="nama" name="nama" id="nama" placeholder="Masukkan nama Anda" required>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="email">Email</label>
-                    </td>
-                    <td></td>
-                    <td>
-                        <input style="width: 80%;"
-                        type="email" id="email" name="email" placeholder="Masukkan email" required>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="password">Password</label>
-                    </td>
-                    <td></td>
-                    <td>
-                        <input style="width: 80%;"
-                        type="password" name="password" id="password" placeholder="Masukkan password" required>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="foto">Upload Foto</label>
-                    </td>
-                    <td></td>
-                    <td>
-                        <div class="input-regist">
-                            <input style="width: 80%;"
-                            type="file" name="foto" id="foto">
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="3">
-                        <label for="cek">
-                            <input type="checkbox" name="terms" required> Saya setuju dengan syarat & ketentuan
-                        </label>
-                    </td>
-                    <!-- <td colspan="2">
-                        <input type="checkbox" name="terms" required> 
-                    </td>
-                    <td>Saya setuju dengan syarat & ketentuan</td> -->
-                </tr>
-                <tr>
-                    <td colspan="3" style="text-align: center;">
-                        <button type="submit">Registrasi</button>
-                    </td>
-                </tr>
-            </table>
-        </form>
-    </div>
+<body style="font-family: Nunito Sans, serif; display: flex; align-items: center; justify-content: center; height: 70vh; background-color: #f4f4f4;">
+    <form action="#" method="get" >
+        <h2 style="text-align: center;">Registrasi Akun</h2>
+        <table>
+            <tr>
+                <td>
+                    <label for="nama">Nama</label>
+                </td>
+                <td></td>
+                <td>
+                    <input style="width: 100%;"
+                    type="nama" name="nama" id="nama" placeholder="Masukkan nama Anda" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td></td>
+                <td>
+                    <input style="width: 100%;"
+                    type="email" id="email" name="email" placeholder="Masukkan email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td></td>
+                <td>
+                    <input style="width: 100%;"
+                    type="password" name="password" id="password" placeholder="Masukkan password" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="foto">Upload Foto</label>
+                </td>
+                <td></td>
+                <td>
+                    <div class="input-regist">
+                        <input style="width: 100%;"
+                        type="file" name="foto" id="foto">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <label for="cek">
+                        <input type="checkbox" name="terms" required> Saya setuju dengan syarat & ketentuan
+                    </label>
+                </td>
+                <!-- <td colspan="2">
+                    <input type="checkbox" name="terms" required> 
+                </td>
+                <td>Saya setuju dengan syarat & ketentuan</td> -->
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center;">
+                    <button type="submit">Registrasi</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right;">
+                    sudah punya akun?
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right;">
+                    <a href="Tugas_Login.html" class="button-google">
+                        Login akun
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>
