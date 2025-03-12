@@ -1,75 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/login.css">
     <title>Login Akun</title>
 </head>
-<body style="font-family: Nunito Sans, serif; display: flex; align-items: center; justify-content: center; height: 70vh; background-color: #f4f4f4;">
-    <form action="#" method="get">
-        <h2 style="text-align: center;">Login Akun</h2>
-        <table>
-            <tr>
-                <td>
-                    <label for="email">Email</label>
-                </td>
-                <td></td>
-                <td>
-                    <input style="width: 100%;"
-                    type="email" id="email" name="email" placeholder="Masukkan email" required>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="password">Password</label>
-                </td>
-                <td></td>
-                <td>
-                    <input style="width: 100%;"
-                    type="password" name="password" id="password" placeholder="Masukkan password" required>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <label for="cek">
-                        <input type="checkbox" name="terms" required> Ingatkan password saya
-                    </label>
-                </td>
-                <!-- <td colspan="2">
-                    <input type="checkbox" name="terms" required> 
-                </td>
-                <td>Saya setuju dengan syarat & ketentuan</td> -->
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <a href="#" class="button-google">
-                        Login dengan Google
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="text-align: left;">
-                    <button type="submit">Masuk</button>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3"></td>
-            </tr>
-            <tr>
-                <td colspan="3" style="text-align: right;">
-                    belum punya akun?
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3" style="text-align: right;">
-                    <a href="register.html" class="button-google">
-                        Registrasi   akun
-                    </a>
-                </td>
-            </tr>
-        </table>
-    </form>
+<body>
+    <div class="form-login">
+        <form action="#" method="get">
+            <h2>Login Akun</h2>
+            <table>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="Masukkan email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" name="password" id="password" placeholder="Masukkan password" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Ingatkan password saya</label>
+                    </td>
+                </tr>
+                <!-- <tr>
+                    <td colspan="2" id="google">
+                        <a href="#" class="button-google">Login dengan Google</a>
+                    </td>
+                </tr> -->
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" id="login" onclick="window.location.href='index.html'">Masuk</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="question">Belum punya akun?</td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="regist-account">
+                        <a href="register.html" class="button-register">Registrasi akun</a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
 </body>
 </html>
