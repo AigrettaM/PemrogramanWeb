@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-areas: 
+        'header header header header header header header'
+        'menu utama utama utama utama utama utama'
+        'menu kiri kiri kiri kanan kanan kanan'
+        'footer footer footer footer footer footer footer';
+    gap: 10px;
+}
+

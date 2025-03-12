@@ -1,0 +1,60 @@
+nav {
+    display: flex;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    .navbar {
+      list-style: none; /* Hilangin bullet */
+      padding: 0;
+      margin: 0;
+      
+      background: #fff; /* Warna background */
+      text-align: center; /* Biar posisi di tengah */
+    }
+    
+    .navbar li {
+      display: inline-block; /* Bikin sejajar horizontal */
+      margin: 0 5px; /* Jarak antar item */
+    }
+    
+    .navbar a {
+      text-decoration: none; /* Hilangin garis bawah */
+      color: purple;
+      padding: 10px 20px; /* Biar lebih enak dilihat */
+      display: inline-block; /* Biar padding bisa jalan */
+      transition: 0.3s; /* Animasi hover */
+    }
+    
+    .navbar a:hover {
+      background: #D9DFC6; /* Warna saat dihover */
+      border-radius: 5px;
+    }
+    justify-self: start;
+    margin-bottom: 20px;
+}
+
+body{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+}
+
+img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: #D9DFC6 ;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
