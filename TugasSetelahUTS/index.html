@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <title>Classroom clone - Aigretta</title>
+</head>
+<body>
+    <div class="header">
+        <div class="info">
+            <h1>2309023 - Aigretta Maharani</h1>
+            <p>Pemrograman Web</p>
+          </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+          <div class="card">
+            <div class="card-header">
+                <img src="assets/icons8-male-user-100.png" alt="Meet icon" class="icon" />
+                <strong>Meet</strong>
+            </div>
+            <button class="meet-button">Generate link</button>
+          </div>
+          <div class="card">
+            <div class="card-header">
+                <strong>Class Code</strong>
+            </div>
+            <p style="font-size: 1.2rem; margin: 0;">hpnggdtn</p>
+          </div>
+          <div class="card">
+            <div class="card-header">
+                <strong>Upcoming</strong>
+            </div>
+            <p>No work due soon</p>
+            <a href="#" style="color: #1a73e8; font-weight: bold;">View all</a>
+          </div>
+        </div>
+        <div class="main">
+          <div class="announce-box">
+            <div style="background: #1a73e8; color: white; border-radius: 50%; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; font-weight: bold; margin-right: 10px;">A</div>
+            <input type="text" id="announcementInput" placeholder="Announce something to your class" />
+            <button onclick="postAnnouncement()">Post</button>
+          </div>
+          <div id="announcementList"></div>
+        </div>
+      </div>
+    
+</body>
+<script src="js/index.js"></script>
+</html>

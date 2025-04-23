@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 50%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.profile p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.cv-section {
+    text-align: left;
+}
+
+.cv-section p, .cv-section ul {
+    font-size: 16px;
+    color: #555;
+    text-align: justify; /* Meratakan teks kanan-kiri */
+}
+
+.cv-section h2 {
+    margin-top: 15px;
+    color: #333;
+    font-size: 20px;
+}
+
+.cv-section p, .cv-section ul {
+    font-size: 16px;
+    color: #555;
+}
+
+.cv-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cv-section ul li {
+    padding: 5px 0;
+}
